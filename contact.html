@@ -7,15 +7,12 @@
 </head>
 <body style="background-image: url(images/otis_redding_@2X.png);">
     <nav style="background-color: #fff; padding: 0px;" class="navbar border navbar-light bg-light">
-        <!-- Empty space to the left of the main heading or a space-taking empty div -->
-        <div></div>
-        <!-- main heading -->
         <div
             class=
             "navbar-brand text-center col-lg-3 col-md-4 col-sm-12 col-xs-0" 
             style="background-color: #4aaaa5; padding: 10px; margin-right: 0px;"
         >
-            <h1 style="color: #fff;">Kevin Conway</h1>
+            <h1 style="color: #fff; font-family: 'Georgia', Times, serif; ">Kevin Conway</h1>
         </div>
         <div class="col-lg-2 col-md-3 col-sm-0 col-xs-0 "></div>
         <!-- nav buttons -->
@@ -26,8 +23,10 @@
             </ul>
         </nav>
         <br>
-        <div class="container bg-light border border-warning ">
-                <h2>Contact</h2>
+        <div class="container bg-light">
+                <h2 style="color: #4aaaa5;">Contact</h2>
+                <div style="background-color: lightgray; height: 3px; width: 100%;"></div>
+            <br>
                 <div class="panel panel-default col-10">
                   <div class="panel-body">
                         <form action="/action_page.php">
@@ -41,7 +40,6 @@
                             </div>
                             <div class="form-group">
                               <label for="message">Message:</label>
-                              <!--  -->
                               <textarea class="form-control" rows="7" id="message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-default" style="background-color:#4aaaa5; color: white;">Submit</button>

@@ -5,22 +5,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body style="background-image: url(images/otis_redding_@2X.png);">
+<body style="background-image: url(images/otis_redding_@2X.png); font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;">
     <nav style="background-color: #fff; padding: 0px;" class="navbar border navbar-light bg-light">
-        <!-- Empty space to the left of the main heading or a space-taking empty div -->
-        <div></div>
         <!-- main heading -->
+
+        <!-- throughout this project, I used the bootstrap col-xx-xx classes, as well as inline css to style. Because this was in our class assignments, I figured that was ok. If not, please let me know.  -->
         <div
             class=
             "navbar-brand text-center col-lg-3 col-md-4 col-sm-12 col-xs-0" 
             style="background-color: #4aaaa5; padding: 10px; margin-right: 0px;"
         >
             <a href="index.html">
-                <h1 style="color: #fff;">Kevin Conway</h1>
+                <h1 style="color: #fff; font-family: 'Georgia', Times, serif; ">Kevin Conway</h1>
             </a>
             </div>
         <div class="col-lg-2 col-md-3 col-sm-0 col-xs-0 "></div>
+
         <!-- nav buttons -->
+
         <ul class="nav col-xs-12 col-sm-12 col-lg-4 col-md-5 justify-content-center">
                 <li class="nav-item"><a class="nav-link text-secondary" href="index.html">About</a></li>
                 <li class="nav-item"><a class="nav-link text-secondary" href="portfolio.html">Portfolio</a></li>
@@ -29,12 +31,14 @@
         </nav>
         <br>
 
-        <!-- I need to look at these classes below associated with the panel, like panel-default and panel-body and see what I need to do to work with them. -->
 
-        <div class="container bg-light border border-warning">
+
+        <div class="container bg-light">
             <br>
             <div class="page-header">    
-            <h2>About Me</h2>
+            <h2 style="color: #4aaaa5;">About Me</h2>
+            <div style="background-color: lightgray; height: 3px; width: 100%;"></div>
+            <br>
             </div>
                 <div class="panel panel-default col-10 col-xl-10">
                   <div class="panel-body"></div>
@@ -46,8 +50,7 @@
                     <img style="float: left; padding-right: 20px;" src="images/kevinworkpic.png" alt="Kevin Conway">
                 </div>
                 <div class="pull-left">
-<!-- need to put the image and text in one col-12 and float the image. Update: it worked! just needed to add some padding to the image and it is all gucci
- -->
+
                         <p>
                             My name is Kevin Conway and I am an aspiring web developer. I am currently enrolled in the Web Development Bootcamp at the University of North Carolina Charlotte. Once I complete this course, I will have the skills necessary to be a junior web developer.    
                         </p>
